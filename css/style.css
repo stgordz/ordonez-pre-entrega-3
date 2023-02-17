@@ -208,7 +208,7 @@ footer div a {
 .equiposgaleria {
     width: 100%;
     height: auto;
-    grid-area: resistenciasgaleria;
+    /* grid-area: resistenciasgaleria; */
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
@@ -236,6 +236,8 @@ footer div a {
     display: grid;
     justify-self: center;
     align-self: center;
+    row-gap: 20px;
+    margin: 20px;
 }
 .seccion-1 div:hover {
     transform: scale(1.1);
@@ -261,7 +263,7 @@ footer div a {
 .resistenciasgaleria {
     width: 100%;
     height: auto;
-    grid-area: resistenciasgaleria;
+    /* grid-area: resistenciasgaleria; */
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
